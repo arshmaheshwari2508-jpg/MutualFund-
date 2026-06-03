@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HDFC FAQ Assistant | Institutional Grade</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-low": "#161c21",
+                        "on-secondary": "#2c3138",
+                        "primary-container": "#498fff",
+                        "primary-fixed": "#d7e2ff",
+                        "on-primary-fixed": "#001a40",
+                        "surface-container-lowest": "#090f13",
+                        "surface-container": "#1a2025",
+                        "surface-tint": "#acc7ff",
+                        "tertiary": "#c1c7d0",
+                        "surface-variant": "#2f363a",
+                        "on-error": "#690005",
+                        "tertiary-container": "#8b9199",
+                        "tertiary-fixed-dim": "#c1c7d0",
+                        "on-secondary-container": "#b1b5bf",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary-fixed": "#171c23",
+                        "inverse-surface": "#dde3e9",
+                        "outline": "#8b909f",
+                        "outline-variant": "#414754",
+                        "surface-bright": "#343a3f",
+                        "surface": "#0e1418",
+                        "primary": "#acc7ff",
+                        "on-tertiary": "#2b3138",
+                        "secondary-fixed-dim": "#c2c7d0",
+                        "on-primary-fixed-variant": "#004492",
+                        "primary-fixed-dim": "#acc7ff",
+                        "inverse-primary": "#005bbf",
+                        "background": "#0e1418",
+                        "secondary-container": "#42474f",
+                        "error": "#ffb4ab",
+                        "inverse-on-surface": "#2b3136",
+                        "tertiary-fixed": "#dde3ec",
+                        "on-background": "#dde3e9",
+                        "on-tertiary-fixed-variant": "#41474f",
+                        "on-secondary-fixed-variant": "#42474f",
+                        "on-tertiary-fixed": "#161c23",
+                        "surface-container-highest": "#2f363a",
+                        "on-surface-variant": "#c1c6d6",
+                        "on-surface": "#dde3e9",
+                        "on-tertiary-container": "#242a31",
+                        "on-primary": "#002f68",
+                        "surface-container-high": "#242b2f",
+                        "error-container": "#93000a",
+                        "secondary": "#c2c7d0",
+                        "surface-dim": "#0e1418",
+                        "secondary-fixed": "#dee2ec",
+                        "on-primary-container": "#00285b"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "container-max-width": "1200px",
+                        "stack-sm": "8px",
+                        "stack-lg": "32px",
+                        "stack-md": "16px"
+                    },
+                    fontFamily: {
+                        "headline-md": ["Inter"],
+                        "body-md": ["Inter"],
+                        "label-md": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="bg-surface/80 backdrop-blur-md dark:bg-surface/80 text-primary dark:text-primary-fixed docked full-width top-0 sticky border-b border-outline-variant/30 shadow-sm flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full z-50" id="top-nav">
+<div class="flex items-center gap-4">
+<span class="text-headline-md font-headline-md font-bold text-on-surface dark:text-on-surface">HDFC FAQ Assistant</span>
+<div class="flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full border border-outline-variant/20" id="backend-status">
+<div class="w-2.5 h-2.5 rounded-full bg-error" id="status-dot"></div>
+<span class="text-label-md font-label-md text-on-surface-variant" id="status-text">Connecting...</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined p-2 rounded-full hover:bg-surface-variant/50 transition-colors active:scale-95 duration-150">sensors</button>
+<div class="hidden md:flex items-center gap-2">
+<img alt="User Profile" class="w-8 h-8 rounded-full border border-outline-variant/50" data-alt="A professional close-up shot of a sophisticated corporate user interface avatar. The background is a blurred high-end office environment with cool blue and grey lighting. The lighting is soft and cinematic, emphasizing an institutional and trust-oriented atmosphere. The style is hyper-modern and clean, consistent with financial technology branding." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKU-qzQim51NzLbzkdNvNTIf3mNvxjxCVP5X-g-dRqTGarMI2DWuxyVnLTG442BZVVSUUNnUJmAIXmxZMRFR0ehcwik6jP8O67PDGJs_9oaj4R-rX9makDAg85soUN2wdxp0ZKfAGwX6ndIGx3jhqm1yh7SRNCHoUtnkyfLW-uaT49ceaAZePocJe7Uw96FkWFO6J3GvW0yOAYcpHIDT4FRcCFOupDcXmeXvh-iXpWS0hlRsI7GLK3tsf9Bg6_rSBLFuKiK3pfyF8"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar (Hidden on Mobile) -->
+<nav class="bg-surface-container-low/90 backdrop-blur-xl dark:bg-surface-container-lowest/90 text-primary dark:text-primary-fixed h-screen w-64 hidden md:flex flex-col border-r border-outline-variant/20 shadow-xl fixed left-0 top-0 z-40 pt-24">
+<div class="px-6 mb-8">
+<h2 class="text-headline-sm font-headline-md font-bold text-primary">HDFC Assistant</h2>
+<p class="text-body-md font-body-md text-on-surface-variant opacity-70">Institutional Grade</p>
+</div>
+<div class="space-y-1">
+<a class="bg-primary-container text-on-primary-container rounded-lg px-4 py-3 mx-2 flex items-center gap-3 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">chat</span>
+<span class="font-body-md">Chat</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant/30 rounded-lg px-4 py-3 mx-2 flex items-center gap-3 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">history</span>
+<span class="font-body-md">History</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant/30 rounded-lg px-4 py-3 mx-2 flex items-center gap-3 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-body-md">Fund Facts</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant/30 rounded-lg px-4 py-3 mx-2 flex items-center gap-3 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">help_center</span>
+<span class="font-body-md">Support</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow md:ml-64 relative pt-4 flex flex-col">
+<!-- Disclaimer Card -->
+<div class="px-margin-mobile md:px-margin-desktop mb-6 max-w-container-max-width mx-auto w-full">
+<div class="glass-panel rounded-xl p-4 border-l-4 border-l-primary flex gap-4 items-center">
+<span class="material-symbols-outlined text-primary text-[32px]">warning</span>
+<div>
+<h3 class="text-label-md font-bold text-primary uppercase tracking-widest">Facts-Only Mode</h3>
+<p class="text-body-sm text-on-surface-variant">This assistant only provides objective, Groww-verified facts. It is prohibited from offering investment advice, recommendations, or opinions.</p>
+</div>
+</div>
+</div>
+<!-- Chat Feed Area -->
+<div class="chat-container flex-grow overflow-y-auto px-margin-mobile md:px-margin-desktop pb-32" id="chat-feed">
+<div class="max-w-[800px] mx-auto space-y-6 py-4">
+<!-- Initial Assistant Message -->
+<div class="flex flex-col items-start max-w-[85%] animate-slide-up">
+<div class="glass-panel px-5 py-4 rounded-2xl rounded-tl-none">
+<p class="text-body-md leading-relaxed">Welcome. I am the HDFC Mutual Fund Fact Assistant. How may I provide data for your investment analysis today?</p>
+</div>
+<span class="text-label-md text-on-surface-variant mt-2 ml-1">Assistant • Now</span>
+</div>
+<!-- Quick-Start Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-6 animate-slide-up" style="animation-delay: 0.1s">
+<button class="glass-panel p-4 rounded-xl text-left hover:bg-surface-variant/30 transition-all hover:-translate-y-1 active:scale-95 group" onclick="sendQuickQuery('What is the exit load of HDFC Small Cap Fund?')">
+<span class="material-symbols-outlined text-primary mb-2 group-hover:scale-110 transition-transform">payments</span>
+<p class="text-body-sm font-medium">What is the exit load of HDFC Small Cap Fund?</p>
+</button>
+<button class="glass-panel p-4 rounded-xl text-left hover:bg-surface-variant/30 transition-all hover:-translate-y-1 active:scale-95 group" onclick="sendQuickQuery('Who manages the HDFC Defence Fund?')">
+<span class="material-symbols-outlined text-primary mb-2 group-hover:scale-110 transition-transform">person_search</span>
+<p class="text-body-sm font-medium">Who manages the HDFC Defence Fund?</p>
+</button>
+<button class="glass-panel p-4 rounded-xl text-left hover:bg-surface-variant/30 transition-all hover:-translate-y-1 active:scale-95 group" onclick="sendQuickQuery('What is the expense ratio of HDFC Silver ETF FoF?')">
+<span class="material-symbols-outlined text-primary mb-2 group-hover:scale-110 transition-transform">monitoring</span>
+<p class="text-body-sm font-medium">What is the expense ratio of HDFC Silver ETF FoF?</p>
+</button>
+</div>
+<!-- Response Placeholder -->
+<div class="space-y-6" id="messages-container"></div>
+<!-- Typing Indicator -->
+<div class="hidden flex flex-col items-start max-w-[85%] animate-pulse" id="typing-indicator">
+<div class="glass-panel px-5 py-4 rounded-2xl rounded-tl-none">
+<div class="bouncing-dots text-primary">
+<span></span><span></span><span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Input Bar Area -->
+<div class="fixed bottom-0 left-0 md:left-64 right-0 p-4 bg-gradient-to-t from-background via-background/80 to-transparent">
+<div class="max-w-[800px] mx-auto">
+<form class="glass-panel rounded-full p-2 pl-6 flex items-center gap-3 focus-within:ring-2 focus-within:ring-primary-container/50 transition-all shadow-2xl" id="chat-form">
+<input autocomplete="off" class="bg-transparent border-none focus:ring-0 text-body-md flex-grow placeholder:text-on-surface-variant/50 py-3" id="chat-input" placeholder="Ask about fund NAV, expense ratios, or risk metrics..." type="text"/>
+<button class="bg-[#2f81f7] text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-primary-container transition-colors active:scale-90" type="submit">
+<span class="material-symbols-outlined">send</span>
+</button>
+</form>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer id="main-footer" class="bg-surface-container-lowest dark:bg-surface-container-lowest text-on-surface-variant full-width bottom-0 border-t border-outline-variant/10 md:ml-64 z-10 transition-all duration-300">
+<div class="w-full py-4 px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex flex-col md:flex-row items-center gap-4">
+<span class="text-label-md font-bold" id="footer-copyright">© 2024 HDFC Mutual Fund. Facts-only mode active.</span>
+<span class="text-[10px] uppercase tracking-widest opacity-50" id="last-updated">Syncing with Groww...</span>
+</div>
+<div class="flex items-center gap-6">
+<a class="text-label-md font-label-md text-on-surface-variant hover:text-primary underline opacity-80 hover:opacity-100 transition-colors" href="#">Terms</a>
+<a class="text-label-md font-label-md text-on-surface-variant hover:text-primary underline opacity-80 hover:opacity-100 transition-colors" href="#">Privacy</a>
+<a class="text-label-md font-label-md text-on-surface-variant hover:text-primary underline opacity-80 hover:opacity-100 transition-colors" href="#">Disclosures</a>
+<button onclick="document.getElementById('main-footer').style.display='none'" class="material-symbols-outlined text-on-surface-variant hover:text-primary opacity-80 hover:opacity-100 transition-colors ml-2" title="Dismiss">close</button>
+</div>
+</div>
+</footer>
+<script src="app.js"></script>
+</body></html>
