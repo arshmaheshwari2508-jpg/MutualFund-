@@ -17,8 +17,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize RAG orchestrator
-orchestrator = RAGOrchestrator()
+# Initialize RAG orchestrator lazily to prevent boot timeouts on deployment
+orchestrator = None
 
 class QueryRequest(BaseModel):
     query: str
@@ -29,6 +29,10 @@ class QueryResponse(BaseModel):
 @app.post("/api/query", response_model=QueryResponse)
 def query_endpoint(request: QueryRequest):
     """Processes RAG queries through the compliance and security sanitizer pipeline."""
+    global orchestrator
+    if orchestrator is None:
+        orchestrator = RAGOrchestrator()
+        
     if not request.query.strip():
         raise HTTPException(status_code=400, detail="Query text cannot be empty.")
     try:
