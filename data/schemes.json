@@ -7,13 +7,13 @@
     "risk": "Very High",
     "min_sip_investment": 100,
     "min_lumpsum_investment": 100,
-    "expense_ratio": "0.21",
+    "expense_ratio": "0.22",
     "exit_load": "Exit load of 1%, if redeemed within 15 days.",
     "benchmark_index": "Domestic Price of Silver",
     "aum_in_cr": 4893.8555,
     "launch_date": "28-Oct-2022",
-    "nav": 38.0426,
-    "nav_date": "10-Jun-2026",
+    "nav": 38.26,
+    "nav_date": "11-Jun-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
     "managers": [
       {
@@ -100,13 +100,13 @@
     "risk": "Moderately High Riskometer",
     "min_sip_investment": 100,
     "min_lumpsum_investment": 100,
-    "expense_ratio": "0.73",
+    "expense_ratio": "0.77",
     "exit_load": "Exit load of 1% if redeemed within 1 year",
     "benchmark_index": "BSE 250 SmallCap Total Return Index",
     "aum_in_cr": 38809.4792,
     "launch_date": "01-Jan-2013",
-    "nav": 151.483,
-    "nav_date": "10-Jun-2026",
+    "nav": 150.435,
+    "nav_date": "11-Jun-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
     "managers": [
       {
@@ -182,13 +182,13 @@
     "risk": "Very High",
     "min_sip_investment": 100,
     "min_lumpsum_investment": 100,
-    "expense_ratio": "0.83",
+    "expense_ratio": "0.89",
     "exit_load": "Exit load of 1%, if redeemed within 1 year.",
     "benchmark_index": "Nifty India Defence Total Return Index",
     "aum_in_cr": 9724.27,
     "launch_date": "02-Jun-2023",
-    "nav": 28.525,
-    "nav_date": "10-Jun-2026",
+    "nav": 27.97,
+    "nav_date": "11-Jun-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
     "managers": [
       {
@@ -280,8 +280,8 @@
     "benchmark_index": "Domestic Price of Gold",
     "aum_in_cr": 12121.1832,
     "launch_date": "01-Jan-2013",
-    "nav": 45.7512,
-    "nav_date": "10-Jun-2026",
+    "nav": 44.9949,
+    "nav_date": "11-Jun-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
     "managers": [
       {
@@ -368,13 +368,13 @@
     "risk": "Moderately High Riskometer",
     "min_sip_investment": 100,
     "min_lumpsum_investment": 100,
-    "expense_ratio": "0.26",
+    "expense_ratio": "0.31",
     "exit_load": "Exit load of 0.25% if redeemed within 3 days",
     "benchmark_index": "NIFTY 50 Total Return Index",
     "aum_in_cr": 23154.9629,
     "launch_date": "01-Jan-2013",
-    "nav": 226.0962,
-    "nav_date": "10-Jun-2026",
+    "nav": 225.5762,
+    "nav_date": "11-Jun-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-nifty-50-index-fund-direct-growth",
     "managers": [
       {
