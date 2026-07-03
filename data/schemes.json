@@ -12,8 +12,8 @@
     "benchmark_index": "Domestic Price of Silver",
     "aum_in_cr": 4893.8555,
     "launch_date": "28-Oct-2022",
-    "nav": 36.5265,
-    "nav_date": "01-Jul-2026",
+    "nav": 37.416,
+    "nav_date": "02-Jul-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
     "managers": [
       {
@@ -107,8 +107,8 @@
     "benchmark_index": "BSE 250 SmallCap Total Return Index",
     "aum_in_cr": 38809.4792,
     "launch_date": "01-Jan-2013",
-    "nav": 156.967,
-    "nav_date": "01-Jul-2026",
+    "nav": 158.753,
+    "nav_date": "02-Jul-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
     "managers": [
       {
@@ -184,13 +184,13 @@
     "risk": "Very High",
     "min_sip_investment": 100,
     "min_lumpsum_investment": 100,
-    "expense_ratio": "0.88",
+    "expense_ratio": "0.87",
     "exit_load": "Exit load of 1%, if redeemed within 1 year.",
     "benchmark_index": "Nifty India Defence Total Return Index",
     "aum_in_cr": 9724.27,
     "launch_date": "02-Jun-2023",
-    "nav": 30.614,
-    "nav_date": "01-Jul-2026",
+    "nav": 30.739,
+    "nav_date": "02-Jul-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
     "managers": [
       {
@@ -282,8 +282,8 @@
     "benchmark_index": "Domestic Price of Gold",
     "aum_in_cr": 12121.1832,
     "launch_date": "01-Jan-2013",
-    "nav": 43.5333,
-    "nav_date": "01-Jul-2026",
+    "nav": 44.3622,
+    "nav_date": "02-Jul-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
     "managers": [
       {
@@ -377,8 +377,8 @@
     "benchmark_index": "NIFTY 50 Total Return Index",
     "aum_in_cr": 23154.9629,
     "launch_date": "01-Jan-2013",
-    "nav": 234.371,
-    "nav_date": "01-Jul-2026",
+    "nav": 236.0223,
+    "nav_date": "02-Jul-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-nifty-50-index-fund-direct-growth",
     "managers": [
       {
