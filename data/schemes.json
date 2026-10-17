@@ -10,10 +10,10 @@
     "expense_ratio": "0.21",
     "exit_load": "Exit load of 1%, if redeemed within 15 days.",
     "benchmark_index": "Domestic Price of Silver",
-    "aum_in_cr": 4497.0028,
+    "aum_in_cr": 4497,
     "launch_date": "28-Oct-2022",
-    "nav": 34.0708,
-    "nav_date": "15-Oct-2026",
+    "nav": 34.5142,
+    "nav_date": "16-Oct-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-silver-etf-fof-direct-growth",
     "managers": [
       {
@@ -112,10 +112,10 @@
     "expense_ratio": "0.79",
     "exit_load": "Exit load of 1% if redeemed within 1 year",
     "benchmark_index": "BSE 250 SmallCap Total Return Index",
-    "aum_in_cr": 40800.8095,
+    "aum_in_cr": 40800.81,
     "launch_date": "01-Jan-2013",
-    "nav": 155.042,
-    "nav_date": "15-Oct-2026",
+    "nav": 155.056,
+    "nav_date": "16-Oct-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
     "managers": [
       {
@@ -193,10 +193,10 @@
     "expense_ratio": "0.89",
     "exit_load": "Exit load of 1%, if redeemed within 1 year.",
     "benchmark_index": "Nifty India Defence Total Return Index",
-    "aum_in_cr": 11493.3887,
+    "aum_in_cr": 11493.39,
     "launch_date": "02-Jun-2023",
-    "nav": 30.407,
-    "nav_date": "15-Oct-2026",
+    "nav": 30.289,
+    "nav_date": "16-Oct-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
     "managers": [
       {
@@ -284,8 +284,8 @@
     "benchmark_index": "Domestic Price of Gold",
     "aum_in_cr": 12013.27,
     "launch_date": "01-Jan-2013",
-    "nav": 45.1906,
-    "nav_date": "15-Oct-2026",
+    "nav": 45.3291,
+    "nav_date": "16-Oct-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
     "managers": [
       {
@@ -384,10 +384,10 @@
     "expense_ratio": "0.29",
     "exit_load": "Exit load of 0.25% if redeemed within 3 days",
     "benchmark_index": "NIFTY 50 Total Return Index",
-    "aum_in_cr": 22245.7822,
+    "aum_in_cr": 22245.78,
     "launch_date": "01-Jan-2013",
-    "nav": 225.0757,
-    "nav_date": "15-Oct-2026",
+    "nav": 226.557,
+    "nav_date": "16-Oct-2026",
     "source_url": "https://groww.in/mutual-funds/hdfc-nifty-50-index-fund-direct-growth",
     "managers": [
       {
